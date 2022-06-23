@@ -1,0 +1,5 @@
+- [] mongoya bağlan
+- [] vue js kur
+- []mongo db insan scheması oluştur
+- []server side'da routerlara insan verisi crud işlemi yap
+- []frontend kısmında tasarım yap
