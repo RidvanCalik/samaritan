@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Samaritan;
+  src: url('MagdaClean Regular.otf');
+}
+:root{
+  font-family: Samaritan;
+}
+.container{
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: black;
+  margin: 8px;
+  color: white;
+  display: inline-block;
+
+  *:not(.content-title){
+    margin: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .content-title{
+    border: none;
+    padding: 0 4px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+}
+.active-dot{
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 500px;
+}
